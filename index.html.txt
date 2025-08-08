@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uttaran's Personal Website</title>
+  <link rel="shortcut icon" type="image/png" href="Images/uclogo.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="container">
+    <div class="webpagehead">
+      <h1>Uttaran's Page</h1>
+      <h4>My Personal Website</h4>
+    </div>  
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Research.html">Research</a></li>
+      <li><a href="Teaching.html">Teaching</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Project.html">Project</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="flex-container">
+    <section class="sectionbox">
+      <img src="Images/ProfilePic.jpg" alt="Profile Picture">
+      <h2>Welcome!</h2>
+      <p>Hello, I'm Uttaran Choudhurry, a Ph.D. student passionate about mathematics, teaching, and helping others. Explore my website to learn more about my research, projects, and journey.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Uttaran Choudhurry. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
