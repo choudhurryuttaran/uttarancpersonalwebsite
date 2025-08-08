@@ -40,6 +40,29 @@ body {
   }
 }
 
+
+.fixed-btn {
+  position: fixed;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.theme-toggle-btn {
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--accent);
+}
+
+.scroll-top-btn {
+  bottom: 70px;
+  right: 20px;
+  background-color: var(--primary);
+  display: none; /* Hide by default */
+}
 /* Header */
 .container {
   text-align: center;
@@ -134,3 +157,4 @@ footer {
   --nav-bg: #1e40af;
   --hover: #374151;
 }
+
